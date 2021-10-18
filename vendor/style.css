@@ -1,0 +1,191 @@
+
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    body {
+        background-color: #E5E5E5;
+        
+    }
+    .brand{
+        margin-top: 40px;
+    }
+    .navbar-brand img {
+        width: 80px;
+    }
+    .left-content {
+        margin-bottom: 30px;
+        margin-right: 460px;
+    }
+    .card {
+        width: 28rem;
+        background-color: transparent;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 0px;
+    }
+    .card-title {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 44px;
+        color: #19212C;
+    }
+    .card-text {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #868B90;
+    }
+    .card-body {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+        background-color: #ffffff;
+        border-radius:30px;
+    }
+    .form-control {
+        border: 1px solid #EAEAEA;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .form-text {
+        text-align: right;
+        margin-top: 10px;
+        align-items: flex-end;
+    }
+    .form-text a {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #868B90;
+    }
+    .form-label {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 21px;
+        color: #868B90;
+    }
+    .form-select {
+        border: 1px solid #EAEAEA;
+        box-sizing: border-box;
+        border-radius: 12px;
+    }
+    .btn-primary {
+        border-color:#77C5FD;
+        background: #77C5FD;
+        border-radius: 12px;
+    }
+    .new-account {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+        text-decoration-line: underline;
+        color: #868B90;
+    }
+    .right-sidenav {
+        height: 100%;
+        width: 490px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        
+    }
+    .carousel {
+        cursor: auto;
+        cursor: pointer;
+        -webkit-overflow-scrolling: touch;
+    }
+    #sidebar-wrapper {
+        min-height: 100vh;
+        margin-right: 0px;
+        transition: margin 0.25s ease-out;
+    }
+    body.sb-sidenav-toggled .section-content #sidebar-wrapper {
+    margin-left: 0;
+    }
+    #sidebarToggle{
+        display: none;
+    }
+@media (max-width:991px) {
+    #sidebarToggle{
+        position: absolute;
+        left: auto;
+        right: 5px;
+        top: 5px;
+        bottom: auto;
+        z-index: 5;
+        display: block;
+    }
+    .left-content {
+        min-width: 0;
+        width: 100%;
+    }
+    #sidebar-wrapper{
+        margin-right: -40rem;
+    }
+    body.sb-sidenav-toggled .section-content #sidebar-wrapper {
+        margin-right: 0;
+      }
+}
+
+@media (max-width:576px){
+    html, body {
+        scroll-behavior: smooth;
+    }
+    .section-content {
+        perspective: 1px;
+        transform-style: preserve-3d;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .right-sidenav {
+        width: 100%;
+        flex: 1 0 auto;
+        position: relative;
+        z-index: -1;
+        height: 100%;
+        transform: translateZ(-1px) scale(2);
+    }
+    .left-content {
+        background-color: #E5E5E5;
+        padding:5px 10px;
+        border-radius: 10px;
+        position: relative;
+        display: block;
+        z-index: 1;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content{
+        margin-top: -30px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .brand img {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 50px;
+    }
+    .back {
+        z-index: 1;
+    }
+    .card {
+        margin-top: -2px;
+        width: 100%;
+    }
+   .card-body {
+       width: 100%;
+   }
+    #sidebarToggle{
+    display: none;
+    }
+}
