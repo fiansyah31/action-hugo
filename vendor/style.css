@@ -99,9 +99,6 @@
     .carousel-inner {
         height: 100%;
     }
-    .carousel-inner img {
-        height: 100% !important;
-    }
     .carousel {
         cursor: auto;
         cursor: pointer;
