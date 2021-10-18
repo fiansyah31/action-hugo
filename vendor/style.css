@@ -150,6 +150,9 @@
         height: 100%;
         transform: translateZ(-1px) scale(2);
     }
+    .carousel .carousel-inner img {
+        height: 510px;
+    }
     .left-content {
         background-color: #E5E5E5;
         padding:5px 10px;
