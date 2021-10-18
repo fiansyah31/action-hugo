@@ -86,7 +86,7 @@
     }
     .right-sidenav {
         height: 100%;
-        width: 490px !important;
+        width: 490px;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -118,7 +118,6 @@
     #sidebarToggle{
         display: none;
     }
-    /* ipad size 1280 x 800 */
 @media (max-width:991px) {
     #sidebarToggle{
         position: absolute;
@@ -162,8 +161,7 @@
     }
     .carousel-inner img {
         background-position: center;
-        width: 100% !important;
-        height: 800px !important;
+        width: 100%;
     }
     .carousel .carousel-inner img {
         height: 620px;
