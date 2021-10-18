@@ -86,12 +86,21 @@
     }
     .right-sidenav {
         height: 100%;
-        width: 490px;
+        width: 490px !important;
         position: fixed;
         z-index: 1;
         top: 0;
         right: 0;
         
+    }
+    .right-carousel {
+        width: 100%;
+    }
+    .carousel-inner {
+        height: 100%;
+    }
+    .carousel-inner img {
+        height: 100% !important;
     }
     .carousel {
         cursor: auto;
@@ -109,6 +118,7 @@
     #sidebarToggle{
         display: none;
     }
+    /* ipad size 1280 x 800 */
 @media (max-width:991px) {
     #sidebarToggle{
         position: absolute;
@@ -149,6 +159,11 @@
         z-index: -1;
         height: 100%;
         transform: translateZ(-1px) scale(2);
+    }
+    .carousel-inner img {
+        background-position: center;
+        width: 100% !important;
+        height: 800px !important;
     }
     .carousel .carousel-inner img {
         height: 620px;
